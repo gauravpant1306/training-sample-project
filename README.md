@@ -1,5 +1,7 @@
 # Industrial Training 2025 – E-Learning Platform
 
+![Industrial Training 2025 Homepage](public/screenshots/homepage.png)
+
 Welcome to the Industrial Training 2025 E-Learning Platform! This project is a modern, feature-rich web application designed to help students and professionals access high-quality online courses, both free and paid, to boost their skills and career prospects.
 
 ## Overview
@@ -38,6 +40,18 @@ Industrial Training 2025 is built with React and Material UI, providing a seamle
    npm run dev
    ```
 4. Open your browser and go to [http://localhost:5173](http://localhost:5173) to view the app.
+
+### Environment Variables (.env)
+Some features require environment variables (such as API keys or Auth0 credentials). Create a `.env` file in the root of your project and add your variables like this:
+
+```env
+VITE_AUTH0_CLIENT_ID=your_auth0_client_id
+VITE_AUTH0_DOMAIN=your_auth0_domain
+# Add other environment variables as needed
+```
+
+- All variables must start with `VITE_` to be accessible in the frontend.
+- After editing the `.env` file, restart the development server.
 
 ### Build for Production
 To create a production build:
