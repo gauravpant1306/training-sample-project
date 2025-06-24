@@ -1,186 +1,69 @@
-<h1><a href="https://ui-lib.com/downloads/matx-react-dashboard/">Matx React Material Design Admin Dashboard Template</a></h1>
+# Industrial Training 2025 – E-Learning Platform
 
-<a href="https://matx-react-free.netlify.app/">
-  <img alt="Matx React Admin" src="https://ui-lib.com/blog/wp-content/uploads/2021/09/matx-github.png" />
-</a>
+Welcome to the Industrial Training 2025 E-Learning Platform! This project is a modern, feature-rich web application designed to help students and professionals access high-quality online courses, both free and paid, to boost their skills and career prospects.
 
-<p>MatX is a full-featured React Material UI Admin Dashboard template. MatX is built with React, Redux & Material UI We implemented all the features you might need to start a new Web application. The free version includes all Material UI components, Form elements, and validation, JWT authentication, Sign in, sign up pages,  Vertical navigation, Lazy loading, Code splitting.</p>
+## Overview
 
-<h2>Features</h2>
-<table>
-<tr>
-<th>MatX Free</th>
-<th>MatX Pro</th>
-</tr>
-<tr>
-<td>
-<a href="https://matx-react-free.netlify.app/">Live Preview</a> <br>
-<a href="https://ui-lib.com/downloads/matx-react-dashboard/">Download MatX</a>
-</td>
-<td>
-<a href="https://matx-react-pro.vercel.app">Live Preview</a> <br>
-<a href="https://ui-lib.com/downloads/matx-pro-react-admin/">Get MatX Pro</a>
-</td>
-</tr>
-<tr>
-<td valign="top">
-<ul>
-  <li>JWT authentication</li>
-  <li>Role based authentication</li>
-  <li>Lazy loading components</li>
-  <li>Code splitting</li>
-  <li>Dashboard Analytics</li>
-  <li>UI kits
-    <ul>
-      <li>Autocomplete</li>
-      <li>Buttons</li>
-      <li>Checkbox</li>
-      <li>Dialog</li>
-      <li>Expansion panel</li>
-      <li>Menu</li>
-      <li>Progress</li>
-      <li>Datetime picker</li>
-      <li>Radio</li>
-      <li>Switch</li>
-      <li>Slider</li>
-      <li>Snackbar</li>
-      <li>Data table</li>
-    </ul>
-  </li>
-  <li>Forms
-    <ul>
-      <li>Basic</li>
-      <li>Rich text editor</li>
-    </ul>
-  </li>
-  <li>eChart</li>
-  <li>Session pages
-    <ul>
-      <li>Sign in</li>
-      <li>Sign up</li>
-      <li>Forgot password</li>
-      <li>Error page</li>
-    </ul>
-  </li>
-  <li>Drag and drop</li>
-  <li>Google map</li>
-  <li>Utilities
-    <ul>
-      <li>Color</li>
-      <li>Spacing</li>
-      <li>Typography</li>
-      <li>Display</li>
-    </ul>
-  </li>
-  <li>Multi level menu</li>
-</ul>
-</td>
-<td valign="top">
-<ul>
-  <li>All features of Matx free +</li>
-  <li>Firebase authentication</li>
-  <li>Auth0 authentication</li>
-  <li>Horizontal navigation</li>
-  <li>Pages
-    <ul>
-        <li>Customer List</li>
-        <li>Customer View/Add/Edit</li>
-        <li>Product List</li>
-        <li>Customer View/Add/Edit</li>
-        <li>Order List</li>
-        <li>Order View/Add/Edit</li>
-        <li>Help center</li>
-        <li>FAQ</li>
-        <li>Pricings</li>
-        <li>User List/Grid/Row</li>
-    </ul>
+Industrial Training 2025 is built with React and Material UI, providing a seamless and interactive learning experience. The platform allows users to browse, enroll, and participate in a variety of courses, track their progress, and connect with instructors.
 
-  </li>
-  <li>Forms
-    <ul>
-      <li>Order form</li>
-      <li>Invoice form</li>
-      <li>Property listing form</li>
-      <li>Single upload</li>
-      <li>Multiple upload</li>
-      <li>Wizard</li>
-    </ul>
-  </li>
-  <li>Working Apps
-    <ul>
-      <li>CRUD table</li>
-      <li>Shop/eCommerce</li>
-      <li>Scrum board</li>
-      <li>Invoice builder</li>
-      <li>Event calendar</li>
-      <li>Chat</li>
-      <li>Inbox</li>
-      <li>Todo</li>
-    </ul>
-  </li>
-  <li>Lists
-    <ul>
-      <li>Row/Grid List</li>
-      <li>Infinite scroll list</li>
-    </ul>
-  </li>
-  <li>Charts
-    <ul>
-      <li>eChart</li>
-      <li>Rechart</li>
-      <li>Victory chart</li>
-      <li>React vis</li>
-    </ul>
-  </li>
-  <li>Account setting</li>
-  <li>User profile</li>
-  <li>6 month support</li>
+## Key Features
 
-</ul>
-</td>
-</tr>
-</table>
+- Modern, responsive UI
+- Browse free and paid courses
+- User authentication (sign up, sign in)
+- Dashboard for enrolled courses
+- Course details and instructor profiles
+- Secure payment integration for paid courses (coming soon)
+- Progress tracking (coming soon)
+- Admin panel for course management (coming soon)
 
-<h2>Version 5 changes</h2>
+## Getting Started
 
-- Used Vite instead of CRA
+### Prerequisites
+- Node.js (v16 or above recommended)
+- npm (v8 or above)
 
-<h2>Version 4 changes</h2>
+### Installation
+1. Clone the repository:
+   ```sh
+   git clone <your-repo-url>
+   cd <project-directory>
+   ```
+2. Install dependencies:
+   ```sh
+   npm install
+   ```
+3. Start the development server:
+   ```sh
+   npm run dev
+   ```
+4. Open your browser and go to [http://localhost:5173](http://localhost:5173) to view the app.
 
-- Updated all packages
-- Added Auth0 and Firebase authentication system
+### Build for Production
+To create a production build:
+```sh
+npm run build
+```
 
-<h2>Version 3 changes</h2>
+### Preview Production Build
+To preview the production build locally:
+```sh
+npm run preview
+```
 
-- Added Material UI – Styled api (v5)
-- Added Material UI updated components from MUI@version 5
-- Added React Apex Chart
-- Updated JWT authentication
-- Updated Charts
-- Removed CSS Utilities (replaced by MUI)
-- Removed SASS Integrigration (replaced by Styled API)
-- Removed Victory chart (Replaced by React Apex Chart)
+## Folder Structure
+- `src/app/views/home/HomePage.jsx` – Homepage with featured courses
+- `src/app/views/dashboard/` – Dashboard and user-specific pages
+- `src/app/views/sessions/` – Authentication pages (sign in, sign up, etc.)
+- `src/app/components/` – Reusable UI components
 
-<h2 id="availablescripts">Getting started</h2>
+## Contributing
+Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
 
-<p>In the project directory, you can run:</p>
+## Contact
+For questions or support, please contact:
+- Email: [your-email@example.com](mailto:your-email@example.com)
 
-<h3 id="npmstart"><code>npm run dev</code></h3>
+---
 
-<p>Runs the app in the development mode.<br>
-
-<p>The page will reload if you make edits.<br>
-You will also see any lint errors in the console.</p>
-
-<h3 id="npmrunbuild"><code>npm run build</code></h3>
-
-<p>Builds the app for production to the <code>build</code> folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.</p>
-
-<p>The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!</p>
-
-<h3>Download</h3>
-Download From <a href="https://ui-lib.com/downloads/matx-react-dashboard/">official website</a>
-
-<h3>For questions and support mail us at <a href="mailto:support@ui-lib.com">support@ui-lib.com</a></h3>
+© 2025 Industrial Training. All rights reserved.
