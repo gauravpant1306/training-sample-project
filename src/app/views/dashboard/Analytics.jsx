@@ -10,14 +10,14 @@ const enrolledCourses = [
     id: 1,
     title: "React for Beginners",
     progress: 70,
-    instructor: "Jane Doe",
+    instructor: "Bablu",
     image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=400&q=80"
   },
   {
     id: 2,
     title: "Python for Data Science",
     progress: 40,
-    instructor: "Sara Kim",
+    instructor: "Pawan",
     image: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=400&q=80"
   }
 ];
